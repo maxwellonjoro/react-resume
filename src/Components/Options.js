@@ -14,7 +14,7 @@ export const Options = () => {
 
   const [theme, setTheme] = useState(lsTheme || "dark");
   const [icon, setIcon] = useState(lsIcon || "bx-sun");
-  const [snow, setSnow] = useState(lsSnow);
+  const [snow, setSnow] = useState(lsSnow === null ? true : lsSnow);
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
