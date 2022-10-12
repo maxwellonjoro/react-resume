@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 import { ParticlesParams } from "../Schemas/Particles";
 
 export const Options = () => {
-  var { lsTheme, lsIcon, lsSnow } = "";
+  let { lsTheme, lsIcon, lsSnow } = "";
   try {
     lsTheme = localStorage.getItem("theme");
     lsIcon = localStorage.getItem("icon");
@@ -12,8 +12,8 @@ export const Options = () => {
     console.error(`All Cookies blocked - Error: ${e.message}`);
   }
 
-  const [theme, setTheme] = useState(lsTheme || "light");
-  const [icon, setIcon] = useState(lsIcon || "bx-moon");
+  const [theme, setTheme] = useState(lsTheme || "dark");
+  const [icon, setIcon] = useState(lsIcon || "bx-sun");
   const [snow, setSnow] = useState(lsSnow);
 
   useEffect(() => {
