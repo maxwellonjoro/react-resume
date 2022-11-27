@@ -2,9 +2,9 @@ import React from "react";
 import { Description } from "./Description";
 
 export const Projects = ({ projects }) => {
-  return (
+  return !projects || projects.size === 0 ? null : (
     <section className="projects-experience section" id="projects">
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title">Achievements</h2>
       <div className="experience__container bd-grid">
         {projects.map((project) => (
           <Project key={project.company} {...project} />
