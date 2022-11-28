@@ -63,16 +63,25 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "Head of Coffee Tourism",
-        company: "Fairview Coffee Estate",
-        period: "March 2021 - current",
+        title: "MentAfric",
+        company: "Co-Founder",
+        period: "August 2022 - Current",
+        description: [
+          "Program development",
+          "Public relations",
+        ],
+      },
+      {
+        title: "Fairview Coffee Estate",
+        company: "Head of Coffee Tourism",
+        period: "June 2015 - September 2021",
         description: [
           "Strategy development", "Tour Guiding", "Hiring and training", "Budget development", 
           "Product development", "Events planning", "Administration", "Reporting", 
           "Coffee tour script development", "Public relations", 
           "Sourcing beneficial business partnerships",
         ],
-      },
+      }
     ],
     academic: [
       {
