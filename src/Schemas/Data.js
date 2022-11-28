@@ -41,9 +41,15 @@ export const Data = {
         className: "bxl-linkedin-square",
       },
       {
-        label: "mama_aimah",
+        label: "Millie Onjoro",
+        name: "facebook",
+        url: "https://www.facebook.com/mamaAimah",
+        className: "bxl-facebook",
+      },
+      {
+        label: "millie_onjoro",
         name: "instagram",
-        url: "https://www.instagram.com/mama_aimah",
+        url: "https://www.instagram.com/millie_onjoro",
         className: "bxl-instagram",
       },
       {
