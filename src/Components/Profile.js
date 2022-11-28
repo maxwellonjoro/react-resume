@@ -3,6 +3,7 @@ import { Options } from "./Options";
 
 export const Profile = ({
   name,
+  tagline,
   ocupation,
   location,
   email,
@@ -17,6 +18,7 @@ export const Profile = ({
           <h1 className="home__title">
             <strong>{name}</strong>
           </h1>
+          <h4 className="home__tagline">{ tagline ? `~ ${tagline} ~` : ''}</h4>
           <h3 className="home__profession">{ocupation}</h3>
         </div>
 

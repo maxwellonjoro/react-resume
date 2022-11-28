@@ -1,6 +1,7 @@
 export const Data = {
   profile: {
     name: "Millicent  Onjoro",
+    tagline: "Connecting people to purpose",
     ocupation: "Events Planning and Marketing | MC and Events Moderator | Marketing Consultant",
     location: "Nairobi, Kenya",
     email: "wanderwamwangi@gmail.com",
@@ -10,10 +11,8 @@ export const Data = {
   aboutMe: {
     label: "Profile",
     description:
-      `I love organizing and coordinating events. 
-      I am the brains behind Kahawa Festival - an event that takes place every year in October to celebrate coffee and coffee culture in Kenya.
-      I am passionate about Leadership, Mentorship and good Customer Service.
-      I represent the youth in Sauti Ya Kahawa, a Kenyan coffee platform and I also served as the Women Representative in the Africa Finest Coffees Association for four years.
+      `I love people and connecting them to a purpose. I also love organizing and coordinating events. 
+      I am passionate about Leadership, Strategy Development, Mentorship and good Customer Service.
       I enjoy Public speaking and moderating events.
       I love serving the community.
       I am a trained Customer Service professional.`,
@@ -78,7 +77,7 @@ export const Data = {
     ],
     projects: [
       {
-        name: "Kahawa Festival",
+        name: "Innovator and lead planner for Kahawa Festival",
         company: "",
         period: "",
         description: [
