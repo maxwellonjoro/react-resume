@@ -6,16 +6,14 @@ export const Data = {
     location: "Nairobi, Kenya",
     email: "wanderwamwangi@gmail.com",
     telephone: "+254723157260",
-    image: "images/millie-profile.png",
+    image: "images/millie-profile.jpeg",
   },
   aboutMe: {
     label: "Profile",
     description:
       `I love people and connecting them to a purpose through music and creating platforms for conversations. I also love organizing and coordinating events. 
-      I am passionate about Leadership, Strategy Development, Mentorship and good Customer Service.
-      I enjoy Public speaking and moderating events.
-      I love serving the community.
-      I am a trained Customer Service professional.`,
+      I am passionate about Leadership, Strategy Development, Mentorship and helping small businesses curate amazing Customer Experience journeys through advocacy and training.
+      I enjoy Public speaking and moderating events.`,
   },
   skills: {
     technicalLabel: "Skills",
