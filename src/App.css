@@ -126,7 +126,7 @@ body.dark-theme {
 
 /*========== CSS CLASS ==========*/
 .section {
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
 }
 
 .section-title {
@@ -245,8 +245,8 @@ body.dark-theme {
 }
 
 .home__img {
-  width: 120px;
-  height: 145px;
+  width: 8.75em;
+  height: 10em;
   border-radius: 50%;
   justify-self: center;
   margin-bottom: var(--mb-1);
