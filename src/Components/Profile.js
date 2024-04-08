@@ -4,7 +4,7 @@ import { Options } from "./Options";
 export const Profile = ({
   name,
   tagline,
-  ocupation,
+  occupation,
   location,
   email,
   telephone,
@@ -19,7 +19,7 @@ export const Profile = ({
             <strong>{name}</strong>
           </h1>
           <h4 className="home__tagline">{ tagline ? `~ ${tagline} ~` : ''}</h4>
-          <h3 className="home__profession">{ocupation}</h3>
+          <h3 className="home__profession">{occupation}</h3>
         </div>
 
         <div className="home__address bd-grid">

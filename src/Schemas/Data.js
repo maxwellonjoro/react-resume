@@ -2,7 +2,7 @@ export const Data = {
   profile: {
     name: "Millicent  Onjoro",
     tagline: "Connecting people to purpose",
-    ocupation: "Events Planning and Marketing | MC and Events Moderator | Marketing Consultant",
+    occupation: "Events Planning and Marketing | MC and Events Moderator | Conversation Curator | Customer Experience Expert",
     location: "Nairobi, Kenya",
     email: "wanderwamwangi@gmail.com",
     telephone: "+254723157260",
@@ -11,7 +11,7 @@ export const Data = {
   aboutMe: {
     label: "Profile",
     description:
-      `I love people and connecting them to a purpose. I also love organizing and coordinating events. 
+      `I love people and connecting them to a purpose through music and creating platforms for conversations. I also love organizing and coordinating events. 
       I am passionate about Leadership, Strategy Development, Mentorship and good Customer Service.
       I enjoy Public speaking and moderating events.
       I love serving the community.
@@ -63,7 +63,7 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "MentAfric",
+        title: "Crecica",
         company: "Co-Founder",
         period: "August 2022 - Current",
         description: [
