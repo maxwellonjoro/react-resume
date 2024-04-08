@@ -12,8 +12,7 @@ export const Data = {
     label: "Profile",
     description:
       `I love people and connecting them to a purpose through music and creating platforms for conversations. I also love organizing and coordinating events. 
-      I am passionate about Leadership, Strategy Development, Mentorship and helping small businesses curate amazing Customer Experience journeys through advocacy and training.
-      I enjoy Public speaking and moderating events.`,
+      I am passionate about Leadership, Strategy Development, Mentorship and helping small businesses curate amazing Customer Experience journeys through advocacy and training.`,
   },
   skills: {
     technicalLabel: "Skills",
